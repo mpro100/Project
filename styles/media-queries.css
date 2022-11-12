@@ -1,0 +1,133 @@
+@media (max-width: 615px) {
+    .header {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .header > .left-column {
+        order: 1;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    .header > .center-column {
+        order: 2;
+        width: 100%;
+    }
+
+    .header > .right-column {
+        order: 3;
+        width: 100%;
+    }
+
+    .header-menu-title {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px;
+
+    }
+
+    .header-menu-links {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px;
+
+    }
+
+    .header-menu-links > .nav-link  {
+       margin: 10px 0px 10px 0px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .header-menu-links > .btn-spark {
+        margin: 10px 0px 40px 0px;
+        justify-content: center;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .header-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .header-buttons > .btn-gray:nth-child(1) {
+        order:4;
+    }
+
+    .header-buttons > .btn-gray {
+        width: 100px;
+        justify-content: center;
+    }
+
+
+
+    .page-container {
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .page-container > .content-left{
+        padding: 0px;
+     
+    }
+
+
+    .page-container > .content-left > .content-text {
+        flex-direction: column;
+        height: 100%;
+        padding: 30px;
+
+        
+    }
+
+    .content-buttons {
+        flex-direction: column;
+        width:100% ;
+    }
+
+    .content-buttons > .btn-green {
+        order:2;
+        width: 225px;
+        font-size: 1.9em;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .content-buttons > .btn-black {
+        order:1;
+        width: 225px;
+        font-size: 1.9em;
+        justify-content: center;
+        margin: 10px;
+
+    }
+
+
+    .page-container > .content-right {
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .page-container > .content-right > .content-img {
+        height: 300px;
+       
+    }
+
+    .footer {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .footer > .footer-menu {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+
+    
+
+}
