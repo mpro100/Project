@@ -24,14 +24,12 @@
         flex-direction: column;
         justify-content: center;
         padding: 0px;
-
     }
 
     .header-menu-links {
         flex-direction: column;
         justify-content: center;
         padding: 0px;
-
     }
 
     .header-menu-links > .nav-link  {
@@ -72,16 +70,12 @@
 
     .page-container > .content-left{
         padding: 0px;
-     
     }
-
 
     .page-container > .content-left > .content-text {
         flex-direction: column;
         height: 100%;
         padding: 30px;
-
-        
     }
 
     .content-buttons {
@@ -103,9 +97,7 @@
         font-size: 1.9em;
         justify-content: center;
         margin: 10px;
-
     }
-
 
     .page-container > .content-right {
         padding: 10px;
@@ -115,8 +107,8 @@
 
     .page-container > .content-right > .content-img {
         height: 300px;
-       
     }
+
 
     .footer {
         height: 100%;
@@ -127,7 +119,5 @@
         width: 100%;
         grid-template-columns: 1fr;
     }
-
-    
 
 }
